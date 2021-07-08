@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="141.94.104.193" id="70e67a1d-0e4a-413e-990e-d30abeca64ee" keyPath="C:\Users\Mao\Documents\clés ssh\private key ssh.key" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" />
+    </configs>
+  </component>
+</project>

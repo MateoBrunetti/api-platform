@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fb9bdcdd-d4ae-4615-9452-52ef41dfc7c0" name="ubuntu@141.94.104.193">
+        <fileTransfer rootFolder="/home/ubuntu/api-platform" accessType="SFTP" host="141.94.104.193" port="22" sshConfigId="70e67a1d-0e4a-413e-990e-d30abeca64ee" sshConfig="ubuntu@141.94.104.193:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
