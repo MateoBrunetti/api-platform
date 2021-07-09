@@ -10,12 +10,12 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Entity(repositoryClass=BookRepository::class)
  */
 #[ApiResource]
-class Book
+class                                        Book
 {
-    /**
+        /**
      * @ORM\Id
      * @ORM\GeneratedValue
-     * @ORM\Column(type="integer")
+                    * @ORM\Column(type="integer")
      */
     private $id;
 
@@ -58,7 +58,7 @@ class Book
 
     public function setAuthor(string $author): self
     {
-        $this->author = $author;
+                                        $this->author = $author;
 
         return $this;
     }
@@ -68,11 +68,11 @@ class Book
         return $this->datePublished;
     }
 
-    public function setDatePublished(\DateTimeInterface $datePublished): self
-    {
-        $this->datePublished = $datePublished;
+                        public function setDatePublished(\DateTimeInterface $datePublished): self
+                        {
+                            $this->datePublished = $datePublished;
 
-        return $this;
-    }
+                            return $this;
+                        }
 
 }
